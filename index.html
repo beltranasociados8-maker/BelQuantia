@@ -130,6 +130,50 @@
     .col-label { font-weight: 600; color: var(--navy); }
     .check { color: var(--teal); font-weight: 700; margin-right: 4px; }
     .cross { color: #EF4444; margin-right: 4px; }
+    .app-demo-video{
+  margin:3rem auto;
+  text-align:center;
+}
+
+.app-demo-video video{
+  width:100%;
+  max-width:420px;
+  border-radius:28px;
+  box-shadow:0 20px 50px rgba(0,0,0,.15);
+}
+
+.demo-label{
+  font-weight:600;
+  margin-top:2rem;
+  margin-bottom:1rem;
+  color:#0D1F3C;
+}
+
+.app-buttons{
+  display:flex;
+  gap:1rem;
+  flex-wrap:wrap;
+  margin-top:2rem;
+}
+
+.btn-secondary{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:14px 22px;
+  border-radius:12px;
+  border:1px solid #00C2A8;
+  color:#00C2A8;
+  text-decoration:none;
+  font-weight:600;
+  transition:.2s ease;
+  background:white;
+}
+
+.btn-secondary:hover{
+  background:#00C2A8;
+  color:white;
+}
 
     /* ─── CAPACITACIÓN ─── */
     #capacitacion { background: var(--gray-100); }
@@ -493,12 +537,20 @@
   <div class="benefit-card">📱 Diseñado para móvil</div>
 </div>
 
+<div class="app-demo-video">
+
+  <video autoplay muted loop playsinline controls>
+    <source src="kelixa-app-demo.mp4" type="video/mp4">
+  </video>
+
+</div>
+
 <div class="app-buttons">
 
   <a href="https://chili-lend-27747690.figma.site" 
      target="_blank" 
      class="btn-secondary">
-     Ver prototipo App →
+         Ver prototipo App →
   </a>
 
   <a href="#formulario" class="btn-primary">
