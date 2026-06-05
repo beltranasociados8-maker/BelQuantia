@@ -77,6 +77,68 @@
     .hero-sub { font-size: 1.1rem; color: var(--gray-600); max-width: 660px; margin: 0 auto 1.25rem; }
     .hero-aside { font-size: 0.95rem; color: var(--gray-600); font-style: italic; margin-bottom: 2.5rem; }
     .btn-group.centered { justify-content: center; }
+    #hero-desvelo{
+background:#09111f;
+padding:120px 0;
+color:white;
+}
+
+.hero-desvelo-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+gap:4rem;
+}
+
+.hero-mini{
+color:#FFD54F;
+font-weight:700;
+font-size:.8rem;
+letter-spacing:1px;
+}
+
+#hero-desvelo h1{
+font-size:5rem;
+color:white;
+margin-bottom:.5rem;
+}
+
+#hero-desvelo h2{
+color:white;
+font-size:2.5rem;
+line-height:1.2;
+}
+
+.hero-icons{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:1rem;
+margin:2rem 0;
+}
+.badge-metodo{
+  display:inline-block;
+  background:#ede9fe;
+  color:#6d28d9;
+  padding:6px 12px;
+  border-radius:999px;
+  font-size:.75rem;
+  font-weight:700;
+  margin-bottom:12px;
+}
+
+.metodo-frase{
+  font-size:1.1rem;
+  font-weight:600;
+  color:var(--navy);
+  margin-bottom:12px;
+}
+
+.metodo-transformacion{
+  margin-top:18px;
+  font-weight:700;
+  color:#6d28d9;
+  font-size:1rem;
+}
 
     /* ─── PROBLEMA ─── */
     #problema { background: var(--white); }
@@ -320,19 +382,104 @@
     </ul>
   </nav>
 
-  <!-- ─── HERO ─── -->
-  <section id="hero">
-    <div class="container">
-      <div class="hero-eyebrow">BelQuantia es la evolución de Beltrán & Asociados hacia una nueva forma de entender las finanzas con inteligencia artificial. La estamos construyendo contigo</div>
-      <h1>Entiende tus números y deja de tomar decisiones a ciegas</h1>
-      <p class="hero-sub">BelQuantia integra herramientas, análisis y recursos con inteligencia artificial para ayudar a emprendedores, empresas y contadores a transformar datos en información clara, confiable y accionable.</p>
-      <p class="hero-aside">"No se trata solo de llevar la contabilidad. Se trata de entender qué está pasando con tu negocio."</p>
-      <div class="btn-group centered">
-        <a href="#formulario" class="btn-primary">Quiero participar y recibir acceso →</a>
-        <a href="#kelixa" class="btn-secondary">Acceso anticipado</a>
+  <!-- ─── HERO DESVELO ─── -->
+<section id="hero-desvelo">
+
+  <div class="container hero-desvelo-grid">
+
+    <div class="hero-left">
+
+      <span class="hero-mini">
+        EDUCA. ENTIENDE. DECIDE. CRECE.
+      </span>
+
+      <h1>DESVELO</h1>
+
+      <h2>
+        Cuando entiendes tu dinero,
+        todo cambia.
+      </h2>
+
+      <p class="hero-sub">
+        <p class="hero-sub">
+¿Trabajas mucho, vendes, cobras, pagas y aun así no sabes con certeza si realmente estás ganando dinero?
+
+DESVELO es una experiencia diseñada para ayudarte a entender qué está pasando realmente con tu dinero y tomar decisiones con claridad.
+</p>
+      </p>
+
+      <div class="hero-icons">
+
+        <div>🧠 Mentalidad financiera</div>
+
+        <div>📊 Números que importan</div>
+
+        <div>🎯 Decisiones inteligentes</div>
+
+        <div>❤️ Tranquilidad financiera</div>
+
+        <div class="hero-frase">
+  El problema no es la falta de información.
+  Es la falta de claridad.
+</div>
+
       </div>
+
+      <div class="btn-group">
+
+        <a href="#formulario" class="btn-primary">
+          Quiero asistir a DESVELO →
+        </a>
+
+        <a href="#eleva" class="btn-secondary">
+          Ver método ELEVA
+        </a>
+
+      </div>
+
     </div>
-  </section>
+
+    <div class="hero-right">
+
+      <img src="img/Desvelo-hero.png" alt="DESVELO">
+
+    </div>
+
+  </div>
+
+</section>
+<div class="metodo-banner">
+
+  <div>
+
+    <span class="badge-metodo">MÉTODO PROPIO BELQUANTIA</span>
+
+    <h3>El Método E.L.E.V.A.</h3>
+
+    <p class="metodo-frase">
+      Un modelo de transformación financiera diseñado para ayudarte a pasar de la incertidumbre a la claridad.
+    </p>
+
+    <p>
+      La mayoría de las personas intenta administrar mejor su dinero sin entender primero cómo piensa, siente y toma decisiones frente a él.
+      ELEVA te permite construir conciencia, claridad y estructura antes de buscar crecimiento.
+    </p>
+
+    <div class="metodo-letras">
+      <div class="letra-badge">E</div>
+      <div class="letra-badge">L</div>
+      <div class="letra-badge">E</div>
+      <div class="letra-badge">V</div>
+      <div class="letra-badge">A</div>
+    </div>
+
+    <div class="metodo-transformacion">
+      Confusión → Conciencia → Claridad → Decisión → Crecimiento
+    </div>
+
+  </div>
+
+</div>
 
   <!-- ─── HISTORIA / FUNDADORA ─── -->
   <section id="historia">
@@ -381,7 +528,12 @@
   <section id="problema">
     <div class="container">
       <span class="section-label">El problema</span>
-      <h2>El problema no es solo la contabilidad.<br />Es no entender los números.</h2>
+      <h2>El problema no es solo la contabilidad.
+         ¿Sabes cuál es el verdadero desvelo de muchos emprendedores?
+          No son los impuestos.
+          No son los clientes.
+          Es acostarse después de trabajar todo el día y no saber si realmente están ganando dinero.
+        <br />No entender los números, no tener claridad financiera.</h2>
       <div class="problema-grid">
         <div class="problema-card">
           <h3><span class="icon">💼</span> Para emprendedores</h3>
@@ -561,6 +713,15 @@
 
   <!-- ─── CAPACITACIÓN ─── -->
   <section id="capacitacion">
+           <div class="cap-card">
+          <div class="cap-icon">💼</div>
+          <span class="cap-tag free">Para emprendedoras</span>
+          <h3>DESVELO: Taller practico para entender y ordenar las finanzas de tu negocio</h3>
+          <p>Deja de trabajar sin claridad. Aprende a entender cómo se mueve tu dinero, identificar fugas y tomar decisiones con criterio.</p>
+          <p>No es sobre vender más.
+             Es sobre entender qué está pasando con tu dinero.</p>
+          <a href="#formulario" class="cap-cta">Quiero saber más →</a>
+        </div>
     <div class="container">
       <span class="section-label">Capacitación</span>
       <h2>Aprende a aplicar IA en tus finanzas desde cero</h2>
@@ -573,28 +734,8 @@
           <p>Aprende a usar herramientas de inteligencia artificial en tu práctica contable diaria. Casos reales, ejercicios prácticos y resultados inmediatos.</p>
           <a href="#formulario" class="cap-cta">Me interesa →</a>
         </div>
-           <div class="cap-card">
-          <div class="cap-icon">💼</div>
-          <span class="cap-tag free">Para emprendedoras</span>
-          <h3>DESVELO: Masterclass para entender y ordenar las finanzas de tu negocio</h3>
-          <p>Deja de trabajar sin claridad. Aprende a entender cómo se mueve tu dinero, identificar fugas y tomar decisiones con criterio.</p>
-          <p>No es sobre vender más.
-Es sobre entender qué está pasando con tu dinero.</p>
-          <a href="#formulario" class="cap-cta">Quiero saber más →</a>
-        </div>
       </div>
-      <div class="metodo-banner">
-        <div>
-          <h3>Método ELEVA - Liderazgo financiero consciente</h3>
-          <p>Desarrollado por Karent Beltrán para emprendedoras que quieren dejar de sobrevivir en sus finanzas y empezar a liderar con claridad y propósito.</p>
-          <div class="metodo-letras">
-            <div class="letra-badge">E</div>
-            <div class="letra-badge">L</div>
-            <div class="letra-badge">E</div>
-            <div class="letra-badge">V</div>
-            <div class="letra-badge">A</div>
-          </div>
-        </div>
+   
         <a href="#formulario" class="btn-primary" style="white-space:nowrap;">Quiero acceder →</a>
       </div>
     </div>
