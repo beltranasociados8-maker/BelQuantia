@@ -150,7 +150,32 @@ margin:2rem 0;
     .problema-card li { font-size: 0.9rem; color: var(--gray-600); display: flex; align-items: flex-start; gap: 0.6rem; }
     .problema-card li::before { content: '·'; color: var(--teal); font-size: 1.4rem; line-height: 1; flex-shrink: 0; }
     .mensaje-clave { margin-top: 2.5rem; padding: 1.5rem 2rem; background: linear-gradient(135deg,#e6faf7,#f0fdfb); border-left: 3px solid var(--teal); border-radius: var(--radius-sm); font-size: 1rem; font-weight: 500; color: var(--navy-mid); }
+.problema-hook{
+  max-width: 800px;
+  margin: 2rem auto 3rem;
+  text-align: center;
+}
 
+.problema-hook p{
+  font-size: 1.15rem;
+  color: var(--gray-600);
+  margin-bottom: 12px;
+  line-height: 1.8;
+}
+
+.problema-hook h3{
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  line-height: 1.4;
+  color: var(--navy);
+  font-weight: 800;
+  margin: 24px 0;
+}
+
+.problema-final{
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--teal-dark);
+}
     /* ─── SOLUCIÓN ─── */
     #solucion { background: var(--gray-100); }
     #solucion .sub { font-size: 1rem; color: var(--gray-600); max-width: 600px; margin-bottom: 3rem; }
@@ -441,7 +466,7 @@ DESVELO es una experiencia diseñada para ayudarte a entender qué está pasando
 
     <div class="hero-right">
 
-      <img src="img/Desvelo-hero.png" alt="DESVELO">
+      <img src="Desvelo-hero.png" alt="DESVELO">
 
     </div>
 
@@ -474,7 +499,7 @@ DESVELO es una experiencia diseñada para ayudarte a entender qué está pasando
     </div>
 
     <div class="metodo-transformacion">
-      Confusión → Conciencia → Claridad → Decisión → Crecimiento
+      Educa tu mente - Lidera tu dinero - Estructura tus finanzas - Visualiza tu futuro - Adminsitra
     </div>
 
   </div>
@@ -528,13 +553,29 @@ DESVELO es una experiencia diseñada para ayudarte a entender qué está pasando
   <section id="problema">
     <div class="container">
       <span class="section-label">El problema</span>
-      <h2>El problema no es solo la contabilidad.
-         ¿Sabes cuál es el verdadero desvelo de muchos emprendedores?
-          No son los impuestos.
-          No son los clientes.
-          Es acostarse después de trabajar todo el día y no saber si realmente están ganando dinero.
-        <br />No entender los números, no tener claridad financiera.</h2>
-      <div class="problema-grid">
+<h2>
+El problema no es solo la contabilidad.
+</h2>
+
+<div class="problema-hook">
+
+<p>¿Sabes cuál es el verdadero desvelo de muchos emprendedores?</p>
+
+<p>No son los impuestos.</p>
+
+<p>No son los clientes.</p>
+
+<p>No es vender más.</p>
+
+<h3>
+Es acostarse después de trabajar todo el día y no saber si realmente están ganando dinero.
+</h3>
+
+<p class="problema-final">
+No entender los números. No tener claridad financiera.
+</p>
+
+</div>
         <div class="problema-card">
           <h3><span class="icon">💼</span> Para emprendedores</h3>
           <ul>
@@ -713,7 +754,11 @@ DESVELO es una experiencia diseñada para ayudarte a entender qué está pasando
 
   <!-- ─── CAPACITACIÓN ─── -->
   <section id="capacitacion">
-           <div class="cap-card">
+      <div class="container">
+      <span class="section-label">Capacitación</span>
+      <h2>Aprende a aplicar IA en tus finanzas desde cero</h2>
+      <p class="sub">Talleres, clases y recursos prácticos para contadores y emprendedores que quieren avanzar con inteligencia financiera real.</p>
+      <div class="cap-card">
           <div class="cap-icon">💼</div>
           <span class="cap-tag free">Para emprendedoras</span>
           <h3>DESVELO: Taller practico para entender y ordenar las finanzas de tu negocio</h3>
@@ -722,10 +767,6 @@ DESVELO es una experiencia diseñada para ayudarte a entender qué está pasando
              Es sobre entender qué está pasando con tu dinero.</p>
           <a href="#formulario" class="cap-cta">Quiero saber más →</a>
         </div>
-    <div class="container">
-      <span class="section-label">Capacitación</span>
-      <h2>Aprende a aplicar IA en tus finanzas desde cero</h2>
-      <p class="sub">Talleres, clases y recursos prácticos para contadores y emprendedores que quieren avanzar con inteligencia financiera real.</p>
       <div class="caps-grid">
         <div class="cap-card">
           <div class="cap-icon">🎓</div>
